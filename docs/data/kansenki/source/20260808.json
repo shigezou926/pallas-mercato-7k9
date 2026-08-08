@@ -13399,14 +13399,93 @@
       "dayLabel": "２日目",
       "asOfDay": 1,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "4-6-5",
+          "payout": 220,
+          "kimarite": "恵まれ"
+        },
+        {
+          "rno": 2,
+          "finish": "5-1-2",
+          "payout": 1330,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 3,
+          "finish": "6-3-2",
+          "payout": 7060,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 4,
+          "finish": "2-3-5",
+          "payout": 9910,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 5,
+          "finish": "2-1-4",
+          "payout": 1390,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 6,
+          "finish": "1-5-2",
+          "payout": 1920,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 7,
+          "finish": "3-4-1",
+          "payout": 1500,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 8,
+          "finish": "4-5-1",
+          "payout": 13950,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 9,
+          "finish": "1-4-6",
+          "payout": 1020,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 10,
+          "finish": "1-5-4",
+          "payout": 5370,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 11,
+          "finish": "1-2-3",
+          "payout": 570,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "3-6-2",
+          "payout": 3000,
+          "kimarite": "まくり"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 1,
+        "manshuRaces": [
+          {
+            "rno": 8,
+            "combo": "4-5-1",
+            "payout": 13950
+          }
+        ],
         "venueManRateBase": {
           "rate": 15.1,
           "source": "verify_log当場実績",
-          "n": 2175
+          "n": 2187
         }
       },
       "reference": {
@@ -15841,5 +15920,5 @@
       }
     }
   ],
-  "supplementedAt": "2026-08-08T05:51:24.919275+09:00"
+  "supplementedAt": "2026-08-09T00:01:13.990170+09:00"
 }
