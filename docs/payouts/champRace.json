@@ -336,31 +336,36 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "total": 38,
+      "total": 39,
       "period": {
         "from": "2025/07/15",
-        "to": "2026/07/27"
+        "to": "2026/08/09"
       },
       "ranking": [
         {
           "combo": "1-2-3",
           "count": 3,
-          "share": 7.9
+          "share": 7.7
         },
         {
           "combo": "1-2-4",
           "count": 3,
-          "share": 7.9
+          "share": 7.7
         },
         {
           "combo": "1-4-2",
           "count": 3,
-          "share": 7.9
+          "share": 7.7
         },
         {
           "combo": "1-5-4",
           "count": 2,
-          "share": 5.3
+          "share": 5.1
+        },
+        {
+          "combo": "1-2-5",
+          "count": 1,
+          "share": 2.6
         },
         {
           "combo": "1-2-6",
@@ -499,6 +504,12 @@
         }
       ],
       "races": [
+        {
+          "date": "2026/08/09",
+          "rno": 12,
+          "combo": "1-2-5",
+          "title": "アサヒスーパードライカップ"
+        },
         {
           "date": "2026/07/27",
           "rno": 12,
