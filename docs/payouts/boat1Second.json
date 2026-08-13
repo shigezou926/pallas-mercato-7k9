@@ -328,28 +328,28 @@
       "stadium": "唐津",
       "jcd": 23,
       "slug": "karatsu",
-      "races": 2333,
-      "firstBoat1": 1272,
-      "firstBoat1Rate": 54.5,
+      "races": 2357,
+      "firstBoat1": 1283,
+      "firstBoat1Rate": 54.4,
       "second": [
         {
           "boat": 2,
-          "count": 446,
+          "count": 450,
           "share": 35.1
         },
         {
           "boat": 3,
-          "count": 369,
-          "share": 29.0
+          "count": 374,
+          "share": 29.2
         },
         {
           "boat": 4,
-          "count": 218,
+          "count": 219,
           "share": 17.1
         },
         {
           "boat": 5,
-          "count": 152,
+          "count": 153,
           "share": 11.9
         },
         {
@@ -360,8 +360,8 @@
       ],
       "period": {
         "from": "2025/07/16",
-        "to": "2026/08/11",
-        "days": 195
+        "to": "2026/08/13",
+        "days": 197
       }
     },
     "01": {
@@ -768,40 +768,40 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "races": 2370,
-      "firstBoat1": 1008,
-      "firstBoat1Rate": 42.5,
+      "races": 2394,
+      "firstBoat1": 1020,
+      "firstBoat1Rate": 42.6,
       "second": [
         {
           "boat": 2,
-          "count": 351,
-          "share": 34.8
+          "count": 354,
+          "share": 34.7
         },
         {
           "boat": 3,
-          "count": 259,
-          "share": 25.7
+          "count": 263,
+          "share": 25.8
         },
         {
           "boat": 4,
-          "count": 194,
-          "share": 19.2
+          "count": 197,
+          "share": 19.3
         },
         {
           "boat": 5,
-          "count": 131,
-          "share": 13.0
+          "count": 132,
+          "share": 12.9
         },
         {
           "boat": 6,
-          "count": 73,
-          "share": 7.2
+          "count": 74,
+          "share": 7.3
         }
       ],
       "period": {
         "from": "2025/07/15",
-        "to": "2026/08/09",
-        "days": 198
+        "to": "2026/08/13",
+        "days": 200
       }
     },
     "08": {
