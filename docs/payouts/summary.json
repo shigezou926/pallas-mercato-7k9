@@ -8,8 +8,8 @@
     "days": 395
   },
   "venueCount": 24,
-  "totalRaces": 59383,
-  "manTotal": 9870,
+  "totalRaces": 59427,
+  "manTotal": 9877,
   "topPayouts": [
     {
       "stadium": "常滑",
@@ -115,9 +115,9 @@
       "stadium": "桐生",
       "jcd": 1,
       "slug": "kiryu",
-      "races": 2608,
-      "manCount": 497,
-      "manRate": 19.1
+      "races": 2615,
+      "manCount": 498,
+      "manRate": 19.0
     },
     {
       "stadium": "江戸川",
@@ -171,8 +171,8 @@
       "stadium": "平和島",
       "jcd": 4,
       "slug": "heiwajima",
-      "races": 2172,
-      "manCount": 376,
+      "races": 2174,
+      "manCount": 377,
       "manRate": 17.3
     },
     {
@@ -187,8 +187,8 @@
       "stadium": "住之江",
       "jcd": 12,
       "slug": "suminoe",
-      "races": 2553,
-      "manCount": 436,
+      "races": 2560,
+      "manCount": 437,
       "manRate": 17.1
     },
     {
@@ -243,8 +243,8 @@
       "stadium": "大村",
       "jcd": 24,
       "slug": "omura",
-      "races": 2609,
-      "manCount": 405,
+      "races": 2616,
+      "manCount": 406,
       "manRate": 15.5
     },
     {
@@ -267,25 +267,17 @@
       "stadium": "下関",
       "jcd": 19,
       "slug": "shimonoseki",
-      "races": 2367,
-      "manCount": 353,
+      "races": 2379,
+      "manCount": 355,
       "manRate": 14.9
     },
     {
       "stadium": "蒲郡",
       "jcd": 7,
       "slug": "gamagori",
-      "races": 2424,
-      "manCount": 352,
+      "races": 2431,
+      "manCount": 353,
       "manRate": 14.5
-    },
-    {
-      "stadium": "福岡",
-      "jcd": 22,
-      "slug": "fukuoka",
-      "races": 2589,
-      "manCount": 369,
-      "manRate": 14.3
     },
     {
       "stadium": "尼崎",
@@ -293,6 +285,14 @@
       "slug": "amagasaki",
       "races": 2197,
       "manCount": 313,
+      "manRate": 14.2
+    },
+    {
+      "stadium": "福岡",
+      "jcd": 22,
+      "slug": "fukuoka",
+      "races": 2591,
+      "manCount": 369,
       "manRate": 14.2
     }
   ],
