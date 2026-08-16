@@ -10,14 +10,98 @@
       "dayLabel": "最終日",
       "asOfDay": 5,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "1-6-5",
+          "payout": 2890,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 2,
+          "finish": "4-3-1",
+          "payout": 4150,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 3,
+          "finish": "1-3-2",
+          "payout": 980,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 4,
+          "finish": "1-2-4",
+          "payout": 1070,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 5,
+          "finish": "1-4-3",
+          "payout": 1000,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 6,
+          "finish": "4-5-1",
+          "payout": 8940,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 7,
+          "finish": "1-3-6",
+          "payout": 640,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 8,
+          "finish": "3-1-4",
+          "payout": 1810,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 9,
+          "finish": "4-1-3",
+          "payout": 2810,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 10,
+          "finish": "2-1-4",
+          "payout": 4390,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 11,
+          "finish": "2-5-1",
+          "payout": 22580,
+          "kimarite": "恵まれ"
+        },
+        {
+          "rno": 12,
+          "finish": "4-5-6",
+          "payout": 10580,
+          "kimarite": "まくり"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 2,
+        "manshuRaces": [
+          {
+            "rno": 11,
+            "combo": "2-5-1",
+            "payout": 22580
+          },
+          {
+            "rno": 12,
+            "combo": "4-5-6",
+            "payout": 10580
+          }
+        ],
         "venueManRateBase": {
           "rate": 17.8,
           "source": "verify_log当場実績",
-          "n": 2218
+          "n": 2230
         }
       },
       "reference": {
@@ -1303,14 +1387,93 @@
       "dayLabel": "３日目",
       "asOfDay": 2,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "1-2-5",
+          "payout": 2150,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 2,
+          "finish": "5-4-3",
+          "payout": 52260,
+          "kimarite": "恵まれ"
+        },
+        {
+          "rno": 3,
+          "finish": "2-6-4",
+          "payout": 4630,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 4,
+          "finish": "3-2-5",
+          "payout": 4180,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 5,
+          "finish": "3-1-6",
+          "payout": 3700,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 6,
+          "finish": "3-2-5",
+          "payout": 1020,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 7,
+          "finish": "1-2-6",
+          "payout": 390,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 8,
+          "finish": "3-5-2",
+          "payout": 8540,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 9,
+          "finish": "1-6-3",
+          "payout": 820,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 10,
+          "finish": "1-2-4",
+          "payout": 1390,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 11,
+          "finish": "1-3-4",
+          "payout": 500,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "1-3-2",
+          "payout": 670,
+          "kimarite": "逃げ"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 1,
+        "manshuRaces": [
+          {
+            "rno": 2,
+            "combo": "5-4-3",
+            "payout": 52260
+          }
+        ],
         "venueManRateBase": {
           "rate": 17.5,
           "source": "verify_log当場実績",
-          "n": 2311
+          "n": 2323
         }
       },
       "reference": {
@@ -2492,14 +2655,98 @@
       "dayLabel": "３日目",
       "asOfDay": 2,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "1-3-4",
+          "payout": 760,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 2,
+          "finish": "1-3-5",
+          "payout": 4770,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 3,
+          "finish": "4-6-1",
+          "payout": 43550,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 4,
+          "finish": "2-4-6",
+          "payout": 1580,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 5,
+          "finish": "1-2-3",
+          "payout": 1320,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 6,
+          "finish": "1-4-3",
+          "payout": 5170,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 7,
+          "finish": "4-2-1",
+          "payout": 22180,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 8,
+          "finish": "1-2-6",
+          "payout": 740,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 9,
+          "finish": "1-6-5",
+          "payout": 4940,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 10,
+          "finish": "3-1-4",
+          "payout": 1920,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 11,
+          "finish": "1-2-3",
+          "payout": 2730,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "1-2-4",
+          "payout": 510,
+          "kimarite": "抜き"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 2,
+        "manshuRaces": [
+          {
+            "rno": 3,
+            "combo": "4-6-1",
+            "payout": 43550
+          },
+          {
+            "rno": 7,
+            "combo": "4-2-1",
+            "payout": 22180
+          }
+        ],
         "venueManRateBase": {
           "rate": 15.9,
           "source": "verify_log当場実績",
-          "n": 2239
+          "n": 2251
         }
       },
       "reference": {
@@ -3688,14 +3935,93 @@
       "dayLabel": "４日目",
       "asOfDay": 3,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "1-2-4",
+          "payout": 400,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 2,
+          "finish": "1-5-4",
+          "payout": 7110,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 3,
+          "finish": "1-2-4",
+          "payout": 2130,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 4,
+          "finish": "2-4-5",
+          "payout": 9000,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 5,
+          "finish": "4-1-5",
+          "payout": 1990,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 6,
+          "finish": "2-4-3",
+          "payout": 2360,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 7,
+          "finish": "3-1-4",
+          "payout": 20400,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 8,
+          "finish": "5-4-2",
+          "payout": 9620,
+          "kimarite": "恵まれ"
+        },
+        {
+          "rno": 9,
+          "finish": "3-2-4",
+          "payout": 890,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 10,
+          "finish": "1-3-4",
+          "payout": 1700,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 11,
+          "finish": "1-3-2",
+          "payout": 1000,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "1-4-2",
+          "payout": 970,
+          "kimarite": "逃げ"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 1,
+        "manshuRaces": [
+          {
+            "rno": 7,
+            "combo": "3-1-4",
+            "payout": 20400
+          }
+        ],
         "venueManRateBase": {
-          "rate": 18.8,
+          "rate": 18.7,
           "source": "verify_log当場実績",
-          "n": 2197
+          "n": 2209
         }
       },
       "reference": {
@@ -4875,14 +5201,93 @@
       "dayLabel": "３日目",
       "asOfDay": 2,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "1-6-4",
+          "payout": 1300,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 2,
+          "finish": "5-6-2",
+          "payout": 61650,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 3,
+          "finish": "2-6-1",
+          "payout": 9050,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 4,
+          "finish": "2-3-4",
+          "payout": 1710,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 5,
+          "finish": "1-4-2",
+          "payout": 1490,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 6,
+          "finish": "1-3-4",
+          "payout": 970,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 7,
+          "finish": "2-5-1",
+          "payout": 1590,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 8,
+          "finish": "4-5-3",
+          "payout": 2550,
+          "kimarite": "恵まれ"
+        },
+        {
+          "rno": 9,
+          "finish": "4-1-3",
+          "payout": 2890,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 10,
+          "finish": "1-5-2",
+          "payout": 1380,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 11,
+          "finish": "1-4-3",
+          "payout": 850,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "3-1-5",
+          "payout": 9890,
+          "kimarite": "まくり差し"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 1,
+        "manshuRaces": [
+          {
+            "rno": 2,
+            "combo": "5-6-2",
+            "payout": 61650
+          }
+        ],
         "venueManRateBase": {
-          "rate": 16.5,
+          "rate": 16.4,
           "source": "verify_log当場実績",
-          "n": 2226
+          "n": 2238
         }
       },
       "reference": {
@@ -6077,14 +6482,93 @@
       "dayLabel": "５日目",
       "asOfDay": 4,
       "seriesNote": "全国ボートレース地区対抗ではないSG王座戦",
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "1-2-5",
+          "payout": 690,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 2,
+          "finish": "4-2-3",
+          "payout": 5280,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 3,
+          "finish": "1-3-2",
+          "payout": 3140,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 4,
+          "finish": "2-4-1",
+          "payout": 1460,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 5,
+          "finish": "1-6-3",
+          "payout": 920,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 6,
+          "finish": "2-5-1",
+          "payout": 15720,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 7,
+          "finish": "1-4-6",
+          "payout": 2160,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 8,
+          "finish": "1-4-6",
+          "payout": 1370,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 9,
+          "finish": "1-3-2",
+          "payout": 620,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 10,
+          "finish": "1-4-5",
+          "payout": 1870,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 11,
+          "finish": "1-4-6",
+          "payout": 4450,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "1-5-4",
+          "payout": 2260,
+          "kimarite": "逃げ"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 1,
+        "manshuRaces": [
+          {
+            "rno": 6,
+            "combo": "2-5-1",
+            "payout": 15720
+          }
+        ],
         "venueManRateBase": {
-          "rate": 16.7,
+          "rate": 16.6,
           "source": "verify_log当場実績",
-          "n": 2404
+          "n": 2416
         }
       },
       "reference": {
@@ -8360,14 +8844,113 @@
       "dayLabel": "２日目",
       "asOfDay": 1,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "3-5-1",
+          "payout": 12440,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 2,
+          "finish": "2-1-3",
+          "payout": 2740,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 3,
+          "finish": "4-6-1",
+          "payout": 3570,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 4,
+          "finish": "1-2-4",
+          "payout": 2820,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 5,
+          "finish": "1-2-4",
+          "payout": 1000,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 6,
+          "finish": "2-3-1",
+          "payout": 7330,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 7,
+          "finish": "4-6-2",
+          "payout": 54680,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 8,
+          "finish": "2-1-5",
+          "payout": 2250,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 9,
+          "finish": "1-4-2",
+          "payout": 1770,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 10,
+          "finish": "2-5-3",
+          "payout": 10640,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 11,
+          "finish": "2-4-5",
+          "payout": 13970,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 12,
+          "finish": "5-1-2",
+          "payout": 45870,
+          "kimarite": "まくり差し"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 5,
+        "manshuRaces": [
+          {
+            "rno": 1,
+            "combo": "3-5-1",
+            "payout": 12440
+          },
+          {
+            "rno": 7,
+            "combo": "4-6-2",
+            "payout": 54680
+          },
+          {
+            "rno": 10,
+            "combo": "2-5-3",
+            "payout": 10640
+          },
+          {
+            "rno": 11,
+            "combo": "2-4-5",
+            "payout": 13970
+          },
+          {
+            "rno": 12,
+            "combo": "5-1-2",
+            "payout": 45870
+          }
+        ],
         "venueManRateBase": {
-          "rate": 19.5,
+          "rate": 19.7,
           "source": "verify_log当場実績",
-          "n": 2089
+          "n": 2101
         }
       },
       "reference": {
@@ -10575,14 +11158,93 @@
       "dayLabel": "４日目",
       "asOfDay": 3,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "1-4-5",
+          "payout": 2210,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 2,
+          "finish": "4-3-6",
+          "payout": 3050,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 3,
+          "finish": "1-4-3",
+          "payout": 5210,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 4,
+          "finish": "2-3-4",
+          "payout": 5370,
+          "kimarite": "まくり"
+        },
+        {
+          "rno": 5,
+          "finish": "1-6-3",
+          "payout": 980,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 6,
+          "finish": "3-1-5",
+          "payout": 5810,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 7,
+          "finish": "4-3-2",
+          "payout": 123540,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 8,
+          "finish": "1-3-4",
+          "payout": 2390,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 9,
+          "finish": "1-6-3",
+          "payout": 3490,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 10,
+          "finish": "1-2-3",
+          "payout": 940,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 11,
+          "finish": "1-3-2",
+          "payout": 850,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "1-4-5",
+          "payout": 1170,
+          "kimarite": "逃げ"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 1,
+        "manshuRaces": [
+          {
+            "rno": 7,
+            "combo": "4-3-2",
+            "payout": 123540
+          }
+        ],
         "venueManRateBase": {
           "rate": 18.0,
           "source": "verify_log当場実績",
-          "n": 2356
+          "n": 2368
         }
       },
       "reference": {
@@ -11785,14 +12447,103 @@
       "dayLabel": "３日目",
       "asOfDay": 2,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "1-6-2",
+          "payout": 14790,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 2,
+          "finish": "1-2-3",
+          "payout": 1240,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 3,
+          "finish": "1-6-3",
+          "payout": 950,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 4,
+          "finish": "4-1-2",
+          "payout": 12870,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 5,
+          "finish": "1-2-3",
+          "payout": 1420,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 6,
+          "finish": "1-5-4",
+          "payout": 4210,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 7,
+          "finish": "1-2-3",
+          "payout": 1410,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 8,
+          "finish": "3-5-1",
+          "payout": 2280,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 9,
+          "finish": "1-2-5",
+          "payout": 2010,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 10,
+          "finish": "6-5-1",
+          "payout": 186460,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 11,
+          "finish": "1-3-4",
+          "payout": 8310,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "1-3-6",
+          "payout": 3970,
+          "kimarite": "逃げ"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 3,
+        "manshuRaces": [
+          {
+            "rno": 1,
+            "combo": "1-6-2",
+            "payout": 14790
+          },
+          {
+            "rno": 4,
+            "combo": "4-1-2",
+            "payout": 12870
+          },
+          {
+            "rno": 10,
+            "combo": "6-5-1",
+            "payout": 186460
+          }
+        ],
         "venueManRateBase": {
           "rate": 15.3,
           "source": "verify_log当場実績",
-          "n": 2340
+          "n": 2352
         }
       },
       "reference": {
@@ -13961,14 +14712,87 @@
       "dayLabel": "最終日",
       "asOfDay": 5,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "2-1-4",
+          "payout": 1850,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 2,
+          "finish": "1-4-3",
+          "payout": 720,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 3,
+          "finish": "1-3-2",
+          "payout": 680,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 4,
+          "finish": "1-4-5",
+          "payout": 770,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 5,
+          "finish": "4-3-1",
+          "payout": 4850,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 6,
+          "finish": "5-1-2",
+          "payout": 5250,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 7,
+          "finish": "1-2-4",
+          "payout": 2320,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 8,
+          "finish": "1-3-4",
+          "payout": 1070,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 9,
+          "finish": "1-5-2",
+          "payout": 1140,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 10,
+          "finish": "1-2-3",
+          "payout": 340,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 11,
+          "finish": "1-3-4",
+          "payout": 1640,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "1-3-6",
+          "payout": 2800,
+          "kimarite": "逃げ"
+        }
+      ],
       "resultsSummary": {
         "manshuCount": 0,
         "manshuRaces": [],
         "venueManRateBase": {
-          "rate": 13.6,
+          "rate": 13.5,
           "source": "verify_log当場実績",
-          "n": 2351
+          "n": 2363
         }
       },
       "reference": {
@@ -15249,14 +16073,98 @@
       "dayLabel": "最終日",
       "asOfDay": 5,
       "seriesNote": null,
-      "results": [],
+      "results": [
+        {
+          "rno": 1,
+          "finish": "1-2-3",
+          "payout": 690,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 2,
+          "finish": "2-3-6",
+          "payout": 30270,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 3,
+          "finish": "1-2-4",
+          "payout": 650,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 4,
+          "finish": "1-3-5",
+          "payout": 510,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 5,
+          "finish": "5-1-3",
+          "payout": 1610,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 6,
+          "finish": "4-3-5",
+          "payout": 16670,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 7,
+          "finish": "5-1-3",
+          "payout": 7440,
+          "kimarite": "まくり差し"
+        },
+        {
+          "rno": 8,
+          "finish": "1-5-3",
+          "payout": 2160,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 9,
+          "finish": "2-1-5",
+          "payout": 2670,
+          "kimarite": "差し"
+        },
+        {
+          "rno": 10,
+          "finish": "1-3-5",
+          "payout": 1620,
+          "kimarite": "抜き"
+        },
+        {
+          "rno": 11,
+          "finish": "1-5-6",
+          "payout": 5710,
+          "kimarite": "逃げ"
+        },
+        {
+          "rno": 12,
+          "finish": "4-5-1",
+          "payout": 4740,
+          "kimarite": "差し"
+        }
+      ],
       "resultsSummary": {
-        "manshuCount": 0,
-        "manshuRaces": [],
+        "manshuCount": 2,
+        "manshuRaces": [
+          {
+            "rno": 2,
+            "combo": "2-3-6",
+            "payout": 30270
+          },
+          {
+            "rno": 6,
+            "combo": "4-3-5",
+            "payout": 16670
+          }
+        ],
         "venueManRateBase": {
           "rate": 15.5,
           "source": "verify_log当場実績",
-          "n": 2412
+          "n": 2424
         }
       },
       "reference": {
@@ -16307,5 +17215,5 @@
       }
     }
   ],
-  "supplementedAt": "2026-08-17T03:58:48.338241+09:00"
+  "supplementedAt": "2026-08-17T05:31:07.866241+09:00"
 }
