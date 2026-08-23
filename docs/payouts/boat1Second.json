@@ -328,29 +328,29 @@
       "stadium": "唐津",
       "jcd": 23,
       "slug": "karatsu",
-      "races": 2393,
-      "firstBoat1": 1302,
-      "firstBoat1Rate": 54.4,
+      "races": 2405,
+      "firstBoat1": 1311,
+      "firstBoat1Rate": 54.5,
       "second": [
         {
           "boat": 2,
-          "count": 456,
-          "share": 35.0
+          "count": 461,
+          "share": 35.2
         },
         {
           "boat": 3,
           "count": 377,
-          "share": 29.0
+          "share": 28.8
         },
         {
           "boat": 4,
-          "count": 225,
-          "share": 17.3
+          "count": 226,
+          "share": 17.2
         },
         {
           "boat": 5,
-          "count": 155,
-          "share": 11.9
+          "count": 158,
+          "share": 12.1
         },
         {
           "boat": 6,
@@ -360,8 +360,8 @@
       ],
       "period": {
         "from": "2025/07/16",
-        "to": "2026/08/22",
-        "days": 201
+        "to": "2026/08/23",
+        "days": 202
       }
     },
     "01": {
@@ -768,29 +768,29 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "races": 2456,
-      "firstBoat1": 1041,
+      "races": 2468,
+      "firstBoat1": 1046,
       "firstBoat1Rate": 42.4,
       "second": [
         {
           "boat": 2,
-          "count": 360,
-          "share": 34.6
+          "count": 363,
+          "share": 34.7
         },
         {
           "boat": 3,
-          "count": 268,
+          "count": 269,
           "share": 25.7
         },
         {
           "boat": 4,
-          "count": 201,
+          "count": 202,
           "share": 19.3
         },
         {
           "boat": 5,
           "count": 135,
-          "share": 13.0
+          "share": 12.9
         },
         {
           "boat": 6,
@@ -800,8 +800,8 @@
       ],
       "period": {
         "from": "2025/07/15",
-        "to": "2026/08/22",
-        "days": 207
+        "to": "2026/08/23",
+        "days": 208
       }
     },
     "08": {
