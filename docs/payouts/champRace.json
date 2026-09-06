@@ -336,31 +336,31 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "total": 41,
+      "total": 42,
       "period": {
         "from": "2025/07/15",
-        "to": "2026/08/23"
+        "to": "2026/09/06"
       },
       "ranking": [
         {
           "combo": "1-2-3",
           "count": 3,
-          "share": 7.3
+          "share": 7.1
         },
         {
           "combo": "1-2-4",
           "count": 3,
-          "share": 7.3
+          "share": 7.1
         },
         {
           "combo": "1-4-2",
           "count": 3,
-          "share": 7.3
+          "share": 7.1
         },
         {
           "combo": "1-5-4",
           "count": 2,
-          "share": 4.9
+          "share": 4.8
         },
         {
           "combo": "1-2-5",
@@ -414,6 +414,11 @@
         },
         {
           "combo": "2-1-6",
+          "count": 1,
+          "share": 2.4
+        },
+        {
+          "combo": "2-3-5",
           "count": 1,
           "share": 2.4
         },
@@ -514,6 +519,12 @@
         }
       ],
       "races": [
+        {
+          "date": "2026/09/06",
+          "rno": 12,
+          "combo": "2-3-5",
+          "title": "サッポロビールカップ"
+        },
         {
           "date": "2026/08/23",
           "rno": 12,
