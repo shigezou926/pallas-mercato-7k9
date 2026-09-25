@@ -336,31 +336,31 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "total": 43,
+      "total": 44,
       "period": {
         "from": "2025/07/15",
-        "to": "2026/09/14"
+        "to": "2026/09/24"
       },
       "ranking": [
         {
           "combo": "1-2-3",
-          "count": 3,
-          "share": 7.0
+          "count": 4,
+          "share": 9.1
         },
         {
           "combo": "1-2-4",
           "count": 3,
-          "share": 7.0
+          "share": 6.8
         },
         {
           "combo": "1-4-2",
           "count": 3,
-          "share": 7.0
+          "share": 6.8
         },
         {
           "combo": "1-5-4",
           "count": 2,
-          "share": 4.7
+          "share": 4.5
         },
         {
           "combo": "1-2-5",
@@ -524,6 +524,12 @@
         }
       ],
       "races": [
+        {
+          "date": "2026/09/24",
+          "rno": 12,
+          "combo": "1-2-3",
+          "title": "BOATBoyカップ"
+        },
         {
           "date": "2026/09/14",
           "rno": 12,
