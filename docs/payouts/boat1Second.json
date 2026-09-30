@@ -328,40 +328,40 @@
       "stadium": "唐津",
       "jcd": 23,
       "slug": "karatsu",
-      "races": 2513,
-      "firstBoat1": 1379,
-      "firstBoat1Rate": 54.9,
+      "races": 2525,
+      "firstBoat1": 1384,
+      "firstBoat1Rate": 54.8,
       "second": [
         {
           "boat": 2,
-          "count": 489,
-          "share": 35.5
+          "count": 490,
+          "share": 35.4
         },
         {
           "boat": 3,
           "count": 392,
-          "share": 28.4
+          "share": 28.3
         },
         {
           "boat": 4,
-          "count": 238,
-          "share": 17.3
+          "count": 241,
+          "share": 17.4
         },
         {
           "boat": 5,
           "count": 169,
-          "share": 12.3
+          "share": 12.2
         },
         {
           "boat": 6,
-          "count": 91,
+          "count": 92,
           "share": 6.6
         }
       ],
       "period": {
         "from": "2025/07/16",
-        "to": "2026/09/20",
-        "days": 211
+        "to": "2026/09/30",
+        "days": 212
       }
     },
     "01": {
@@ -768,28 +768,28 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "races": 2683,
-      "firstBoat1": 1143,
+      "races": 2695,
+      "firstBoat1": 1149,
       "firstBoat1Rate": 42.6,
       "second": [
         {
           "boat": 2,
-          "count": 399,
-          "share": 34.9
+          "count": 403,
+          "share": 35.1
         },
         {
           "boat": 3,
-          "count": 285,
+          "count": 286,
           "share": 24.9
         },
         {
           "boat": 4,
           "count": 222,
-          "share": 19.4
+          "share": 19.3
         },
         {
           "boat": 5,
-          "count": 150,
+          "count": 151,
           "share": 13.1
         },
         {
@@ -800,8 +800,8 @@
       ],
       "period": {
         "from": "2025/07/15",
-        "to": "2026/09/29",
-        "days": 226
+        "to": "2026/09/30",
+        "days": 227
       }
     },
     "08": {
