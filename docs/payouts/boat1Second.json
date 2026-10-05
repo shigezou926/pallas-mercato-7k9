@@ -328,29 +328,29 @@
       "stadium": "唐津",
       "jcd": 23,
       "slug": "karatsu",
-      "races": 2573,
-      "firstBoat1": 1407,
+      "races": 2585,
+      "firstBoat1": 1415,
       "firstBoat1Rate": 54.7,
       "second": [
         {
           "boat": 2,
-          "count": 499,
-          "share": 35.5
+          "count": 501,
+          "share": 35.4
         },
         {
           "boat": 3,
-          "count": 401,
-          "share": 28.5
+          "count": 406,
+          "share": 28.7
         },
         {
           "boat": 4,
-          "count": 244,
+          "count": 245,
           "share": 17.3
         },
         {
           "boat": 5,
           "count": 170,
-          "share": 12.1
+          "share": 12.0
         },
         {
           "boat": 6,
@@ -360,8 +360,8 @@
       ],
       "period": {
         "from": "2025/07/16",
-        "to": "2026/10/04",
-        "days": 216
+        "to": "2026/10/05",
+        "days": 217
       }
     },
     "01": {
@@ -768,40 +768,40 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "races": 2719,
-      "firstBoat1": 1159,
-      "firstBoat1Rate": 42.6,
+      "races": 2731,
+      "firstBoat1": 1165,
+      "firstBoat1Rate": 42.7,
       "second": [
         {
           "boat": 2,
-          "count": 407,
-          "share": 35.1
+          "count": 408,
+          "share": 35.0
         },
         {
           "boat": 3,
-          "count": 287,
+          "count": 289,
           "share": 24.8
         },
         {
           "boat": 4,
           "count": 222,
-          "share": 19.2
+          "share": 19.1
         },
         {
           "boat": 5,
-          "count": 154,
-          "share": 13.3
+          "count": 156,
+          "share": 13.4
         },
         {
           "boat": 6,
-          "count": 89,
+          "count": 90,
           "share": 7.7
         }
       ],
       "period": {
         "from": "2025/07/15",
-        "to": "2026/10/04",
-        "days": 229
+        "to": "2026/10/05",
+        "days": 230
       }
     },
     "08": {
