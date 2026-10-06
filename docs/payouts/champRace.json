@@ -336,31 +336,31 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "total": 45,
+      "total": 46,
       "period": {
         "from": "2025/07/15",
-        "to": "2026/09/30"
+        "to": "2026/10/06"
       },
       "ranking": [
         {
           "combo": "1-2-3",
           "count": 4,
-          "share": 8.9
+          "share": 8.7
         },
         {
           "combo": "1-2-4",
-          "count": 3,
-          "share": 6.7
+          "count": 4,
+          "share": 8.7
         },
         {
           "combo": "1-4-2",
           "count": 3,
-          "share": 6.7
+          "share": 6.5
         },
         {
           "combo": "1-5-4",
           "count": 2,
-          "share": 4.4
+          "share": 4.3
         },
         {
           "combo": "1-2-5",
@@ -529,6 +529,12 @@
         }
       ],
       "races": [
+        {
+          "date": "2026/10/06",
+          "rno": 12,
+          "combo": "1-2-4",
+          "title": "第7回日刊大衆杯"
+        },
         {
           "date": "2026/09/30",
           "rno": 12,
