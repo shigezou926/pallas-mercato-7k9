@@ -768,40 +768,40 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "races": 2815,
-      "firstBoat1": 1200,
+      "races": 2827,
+      "firstBoat1": 1203,
       "firstBoat1Rate": 42.6,
       "second": [
         {
           "boat": 2,
           "count": 417,
-          "share": 34.8
+          "share": 34.7
         },
         {
           "boat": 3,
           "count": 300,
-          "share": 25.0
+          "share": 24.9
         },
         {
           "boat": 4,
-          "count": 227,
-          "share": 18.9
+          "count": 229,
+          "share": 19.0
         },
         {
           "boat": 5,
-          "count": 163,
+          "count": 164,
           "share": 13.6
         },
         {
           "boat": 6,
           "count": 93,
-          "share": 7.8
+          "share": 7.7
         }
       ],
       "period": {
         "from": "2025/07/15",
-        "to": "2026/10/16",
-        "days": 237
+        "to": "2026/10/17",
+        "days": 238
       }
     },
     "08": {
