@@ -328,40 +328,40 @@
       "stadium": "唐津",
       "jcd": 23,
       "slug": "karatsu",
-      "races": 2657,
-      "firstBoat1": 1459,
-      "firstBoat1Rate": 54.9,
+      "races": 2669,
+      "firstBoat1": 1468,
+      "firstBoat1Rate": 55.0,
       "second": [
         {
           "boat": 2,
-          "count": 520,
+          "count": 522,
           "share": 35.6
         },
         {
           "boat": 3,
-          "count": 418,
-          "share": 28.6
+          "count": 421,
+          "share": 28.7
         },
         {
           "boat": 4,
-          "count": 256,
+          "count": 257,
           "share": 17.5
         },
         {
           "boat": 5,
-          "count": 172,
-          "share": 11.8
+          "count": 174,
+          "share": 11.9
         },
         {
           "boat": 6,
-          "count": 93,
+          "count": 94,
           "share": 6.4
         }
       ],
       "period": {
         "from": "2025/07/16",
-        "to": "2026/10/18",
-        "days": 223
+        "to": "2026/10/19",
+        "days": 224
       }
     },
     "01": {
@@ -768,40 +768,40 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "races": 2839,
-      "firstBoat1": 1210,
+      "races": 2851,
+      "firstBoat1": 1215,
       "firstBoat1Rate": 42.6,
       "second": [
         {
           "boat": 2,
-          "count": 420,
+          "count": 422,
           "share": 34.7
         },
         {
           "boat": 3,
-          "count": 301,
+          "count": 303,
           "share": 24.9
         },
         {
           "boat": 4,
           "count": 231,
-          "share": 19.1
+          "share": 19.0
         },
         {
           "boat": 5,
           "count": 164,
-          "share": 13.6
+          "share": 13.5
         },
         {
           "boat": 6,
-          "count": 94,
+          "count": 95,
           "share": 7.8
         }
       ],
       "period": {
         "from": "2025/07/15",
-        "to": "2026/10/18",
-        "days": 239
+        "to": "2026/10/19",
+        "days": 240
       }
     },
     "08": {
