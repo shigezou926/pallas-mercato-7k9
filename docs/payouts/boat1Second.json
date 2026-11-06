@@ -328,40 +328,40 @@
       "stadium": "唐津",
       "jcd": 23,
       "slug": "karatsu",
-      "races": 2777,
-      "firstBoat1": 1533,
+      "races": 2789,
+      "firstBoat1": 1540,
       "firstBoat1Rate": 55.2,
       "second": [
         {
           "boat": 2,
-          "count": 545,
+          "count": 549,
           "share": 35.6
         },
         {
           "boat": 3,
           "count": 442,
-          "share": 28.8
+          "share": 28.7
         },
         {
           "boat": 4,
-          "count": 269,
+          "count": 270,
           "share": 17.5
         },
         {
           "boat": 5,
-          "count": 179,
+          "count": 180,
           "share": 11.7
         },
         {
           "boat": 6,
-          "count": 98,
+          "count": 99,
           "share": 6.4
         }
       ],
       "period": {
         "from": "2025/07/16",
-        "to": "2026/10/31",
-        "days": 233
+        "to": "2026/11/06",
+        "days": 234
       }
     },
     "01": {
@@ -768,18 +768,18 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "races": 2899,
-      "firstBoat1": 1235,
+      "races": 2911,
+      "firstBoat1": 1241,
       "firstBoat1Rate": 42.6,
       "second": [
         {
           "boat": 2,
-          "count": 431,
-          "share": 34.9
+          "count": 436,
+          "share": 35.1
         },
         {
           "boat": 3,
-          "count": 310,
+          "count": 311,
           "share": 25.1
         },
         {
@@ -790,7 +790,7 @@
         {
           "boat": 5,
           "count": 165,
-          "share": 13.4
+          "share": 13.3
         },
         {
           "boat": 6,
@@ -800,8 +800,8 @@
       ],
       "period": {
         "from": "2025/07/15",
-        "to": "2026/11/03",
-        "days": 244
+        "to": "2026/11/06",
+        "days": 245
       }
     },
     "08": {
