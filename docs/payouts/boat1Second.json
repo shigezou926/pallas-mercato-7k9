@@ -328,40 +328,40 @@
       "stadium": "唐津",
       "jcd": 23,
       "slug": "karatsu",
-      "races": 2885,
-      "firstBoat1": 1599,
+      "races": 2897,
+      "firstBoat1": 1606,
       "firstBoat1Rate": 55.4,
       "second": [
         {
           "boat": 2,
-          "count": 573,
-          "share": 35.8
+          "count": 574,
+          "share": 35.7
         },
         {
           "boat": 3,
-          "count": 455,
+          "count": 457,
           "share": 28.5
         },
         {
           "boat": 4,
           "count": 280,
-          "share": 17.5
+          "share": 17.4
         },
         {
           "boat": 5,
-          "count": 190,
-          "share": 11.9
+          "count": 193,
+          "share": 12.0
         },
         {
           "boat": 6,
-          "count": 101,
-          "share": 6.3
+          "count": 102,
+          "share": 6.4
         }
       ],
       "period": {
         "from": "2025/07/16",
-        "to": "2026/11/16",
-        "days": 242
+        "to": "2026/11/17",
+        "days": 243
       }
     },
     "01": {
