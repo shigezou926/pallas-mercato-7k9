@@ -336,209 +336,215 @@
       "stadium": "戸田",
       "jcd": 2,
       "slug": "toda",
-      "total": 51,
+      "total": 52,
       "period": {
         "from": "2025/07/15",
-        "to": "2026/11/15"
+        "to": "2026/11/24"
       },
       "ranking": [
         {
           "combo": "1-2-4",
           "count": 5,
-          "share": 9.8
+          "share": 9.6
         },
         {
           "combo": "1-2-3",
           "count": 4,
-          "share": 7.8
+          "share": 7.7
         },
         {
           "combo": "1-4-2",
-          "count": 3,
-          "share": 5.9
+          "count": 4,
+          "share": 7.7
         },
         {
           "combo": "1-3-5",
           "count": 2,
-          "share": 3.9
+          "share": 3.8
         },
         {
           "combo": "1-5-4",
           "count": 2,
-          "share": 3.9
+          "share": 3.8
         },
         {
           "combo": "6-3-1",
           "count": 2,
-          "share": 3.9
+          "share": 3.8
         },
         {
           "combo": "1-2-5",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "1-2-6",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "1-3-2",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "1-3-6",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "1-4-3",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "1-4-5",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "1-5-2",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "1-5-3",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "1-6-3",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "2-1-3",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "2-1-6",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "2-3-5",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "2-4-3",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "3-1-4",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "3-1-5",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "3-4-1",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "3-4-6",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "3-6-2",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "4-1-2",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "4-1-6",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "4-2-3",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "4-3-5",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "4-3-6",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "4-5-1",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "5-1-3",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "5-2-1",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "5-3-2",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "5-3-4",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "5-3-6",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "5-6-4",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "6-1-4",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "6-2-1",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         },
         {
           "combo": "6-5-4",
           "count": 1,
-          "share": 2.0
+          "share": 1.9
         }
       ],
       "races": [
+        {
+          "date": "2026/11/24",
+          "rno": 12,
+          "combo": "1-4-2",
+          "title": "AL・RB大宮アルディージャWOMENカップ"
+        },
         {
           "date": "2026/11/15",
           "rno": 12,
