@@ -67,3 +67,25 @@ def load_venue(kdata: Path, jcd: str):
         D["kimarite"].append(r.kimarite.get(kk, np.nan) if kk in r.index else np.nan)
         D["tansho"].append(tansho.get(k, {}))
     return D
+
+
+def add_original(D, orig_dir: Path):
+    """オリジナル展示（一周・まわり足）を D["isshu"], D["mawari"] に入れる（無い所は NaN のまま）。
+    orig_dir の orig_YYYYMMDD.csv を (日付, R, 枠) で突き合わせ、登番が食い違う艇は使わない。"""
+    N = D["N"]
+    D["isshu"] = np.full((N, 6), np.nan); D["mawari"] = np.full((N, 6), np.nan)
+    files = sorted(Path(orig_dir).glob("orig_*.csv"))
+    if not files:
+        return {"一致": 0, "登番違い": 0}
+    o = pd.concat([pd.read_csv(f, dtype={"開催日": str, "登番": str}, encoding="utf-8-sig") for f in files])
+    look = {(str(r.開催日)[2:], int(r.レース), int(r.枠)): r for r in o.itertuples()}
+    ok = bad = 0
+    for i, (hd, rno) in enumerate(D["keys"]):
+        for j in range(6):
+            r = look.get((hd, int(rno), j + 1))
+            if r is None:
+                continue
+            if str(r.登番) and str(r.登番) != "nan" and str(D["toban"][i, j]) != str(r.登番):
+                bad += 1; continue
+            D["isshu"][i, j] = r.一周; D["mawari"][i, j] = r.まわり足; ok += 1
+    return {"一致": ok, "登番違い": bad}

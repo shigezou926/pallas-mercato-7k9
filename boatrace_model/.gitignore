@@ -2,3 +2,8 @@
 __pycache__/
 venues/*/results/predictions.csv
 venues/*/results/today_*.csv
+venues/*/results/tenji_*.csv
+venues/*/original/
+venues/*/results_original/predictions.csv
+venues/*/results_original/today_*.csv
+venues/*/results_original/tenji_*.csv

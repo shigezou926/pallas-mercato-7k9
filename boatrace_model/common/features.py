@@ -6,7 +6,11 @@
 コースは「枠なり」で固定（実際の進入は締切後にしか分からない）。
 """
 from collections import deque
+import os
 import numpy as np
+
+# ORIGINAL=1 のときだけ、尼崎オリジナル展示（一周・まわり足）を材料に足す。未設定なら従来モデルと同一。
+USE_ORIGINAL = os.environ.get("ORIGINAL") == "1"
 
 
 def build_base(D, n_fit, K_skill=15, K_motor=10, K_st=8, motor_win=40):
@@ -17,7 +21,13 @@ def build_base(D, n_fit, K_skill=15, K_motor=10, K_st=8, motor_win=40):
     base_t2 = (top2[:n_fit] * pres[:n_fit]).sum(0) / pres[:n_fit].sum(0)
     off = np.nanmean(st[:n_fit], axis=0)                       # コース別の平均ST
     gsd = np.nanstd(st[:n_fit] - off)
-    F = {k: np.zeros((N, 6)) for k in ["tenji_rel", "skill_w", "skill_t2", "motor_t2", "mu", "sd"]}
+    F = {k: np.zeros((N, 6)) for k in ["tenji_rel", "skill_w", "skill_t2", "motor_t2", "mu", "sd",
+                                        "isshu_rel", "mawari_rel"]}
+    for key, fk in (("isshu", "isshu_rel"), ("mawari", "mawari_rel")):
+        if key in D:   # そのレースの出走艇の平均との差（秒）。欠測は0＝平均並み扱い
+            a = np.where(pres, D[key], np.nan)
+            with np.errstate(all="ignore"):
+                F[fk] = np.nan_to_num(a - np.nanmean(a, axis=1, keepdims=True))
     racer, motor = {}, {}
     for i in range(N):
         pr = pres[i]
@@ -53,6 +63,8 @@ def build_base(D, n_fit, K_skill=15, K_motor=10, K_st=8, motor_win=40):
 FEATURE_NAMES = ["枠2", "枠3", "枠4", "枠5", "枠6", "展示タイム(速いほど)", "選手勝ち力", "選手連対力",
                  "モーター", "ST(1枠)", "ST(2-3枠)", "ST(4-6枠)", "内より早い(2-3枠)",
                  "内より早い(4-6枠)", "外が遅い(1枠)", "外が遅い(2-3枠)"]
+if USE_ORIGINAL:
+    FEATURE_NAMES += ["一周(速いほど)", "まわり足(速いほど)"]
 P = len(FEATURE_NAMES)
 
 
@@ -81,5 +93,8 @@ def build_X(F, st, present):
     X[..., 9] = rel * g1; X[..., 10] = rel * g23; X[..., 11] = rel * g456
     X[..., 12] = gin * g23; X[..., 13] = gin * g456
     X[..., 14] = gout * g1; X[..., 15] = gout * g23
+    if USE_ORIGINAL:   # 一周は1秒単位、まわり足は0.1秒単位（展示タイムと同じく速い＝プラス）
+        X[..., 16] = -F["isshu_rel"][:, None, :]
+        X[..., 17] = -F["mawari_rel"][:, None, :] * 10
     X *= present[:, None, :, None]
     return X

@@ -3,13 +3,16 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 import warnings; warnings.filterwarnings('ignore')
 import numpy as np, pandas as pd
-from common.data import load_venue
+from common.data import load_venue, add_original
 from common.features import build_base, FEATURE_NAMES
 from common import model as M
 from common import evaluate as E
 from venues.amagasaki import config as C
 
 D = load_venue(C.KDATA, C.JCD)
+if C.USE_ORIGINAL:
+    print("[オリジナル展示]", add_original(D, C.ORIG_DIR),
+          "取得済みレース率", round(float(np.isfinite(D["isshu"]).any(1).mean()), 3))
 N = D["N"]; hd = np.array([k[0] for k in D["keys"]])
 days = sorted(set(hd))
 d_tune, d_hold = days[C.TRAIN_DAYS], days[C.TRAIN_DAYS + C.TUNE_DAYS]
