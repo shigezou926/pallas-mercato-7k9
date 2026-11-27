@@ -1,3 +1,4 @@
 *.pyc
 __pycache__/
 venues/*/results/predictions.csv
+venues/*/results/today_*.csv
