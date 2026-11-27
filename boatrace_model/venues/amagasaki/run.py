@@ -15,6 +15,7 @@ days = sorted(set(hd))
 d_tune, d_hold = days[C.TRAIN_DAYS], days[C.TRAIN_DAYS + C.TUNE_DAYS]
 i_tune = int(np.argmax(hd >= d_tune)); i_hold = int(np.argmax(hd >= d_hold))
 split = np.where(np.arange(N) < i_tune, "学習", np.where(np.arange(N) < i_hold, "調整", "確認"))
+split = split.astype(object); split[hd >= C.NEW_FROM] = "新確認"
 print(f"レース{N} 開催日{len(days)} 除外{D['dropped']}  学習<{d_tune} 調整<{d_hold} 確認以降")
 
 F, base = build_base(D, i_tune)
@@ -31,7 +32,7 @@ P_one = np.zeros((N, 6)); P_one[:, 0] = 1                       # 常に1号艇(
 P_one_s = 0.9 * P_one + 0.1 / 6                                  # Brier用に少し丸めた版は使わず、参考のみ
 
 def idx_of(name): return np.where(split == name)[0]
-tune, hold = idx_of("調整"), idx_of("確認")
+tune, hold = idx_of("調整"), idx_of("新確認")
 best_roi, th = E.grid(D, tune, P[tune], gap[tune], bw)
 th["base_w"] = bw
 lab, tgt, att, danger = E.judge(P, gap, th)
@@ -60,7 +61,7 @@ def block(name, ix):
               "1号艇以外_的中率": float(hit[ix][sa].mean()) if sa.any() else np.nan,
               "1号艇以外_回収率": float((pnl[ix][sa].sum() + 100 * sa.sum()) / (100 * sa.sum())) if sa.any() else np.nan})
     return r
-for s in ["学習", "調整", "確認"]:
+for s in ["学習", "調整", "確認", "新確認"]:
     rows.append(block(s, idx_of(s)))
 for m in sorted(set(month)):
     ix = np.where(month == m)[0]
@@ -98,9 +99,9 @@ json.dump(dict(係数={n: round(float(v), 4) for n, v in zip(FEATURE_NAMES, w)},
 # --- 校正 ---
 cal = pd.DataFrame(dict(p=P[hold][pres[hold]], y=win[hold][pres[hold]]))
 cal["bin"] = pd.cut(cal.p, [0, .05, .1, .15, .2, .3, .4, .5, .6, .7, 1])
-print("\n[校正:確認期間] 予測確率の帯ごとの実際の1着率"); print(cal.groupby("bin", observed=True).agg(件数=("y", "size"), 予測平均=("p", "mean"), 実際=("y", "mean")).round(3).to_string())
+print("\n[校正:新確認期間] 予測確率の帯ごとの実際の1着率"); print(cal.groupby("bin", observed=True).agg(件数=("y", "size"), 予測平均=("p", "mean"), 実際=("y", "mean")).round(3).to_string())
 pd.set_option("display.width", 250); pd.set_option("display.max_columns", 60)
-show = R[R.区分.isin(["学習", "調整", "確認"])].set_index("区分").T
+show = R[R.区分.isin(["学習", "調整", "確認", "新確認"])].set_index("区分").T
 print("\n[期間別]"); print(show.to_string(float_format=lambda x: f"{x:.4f}"))
 print("\n[月別]"); print(R[R.区分.str.startswith("月")][["区分", "レース", "Brier_モデル", "Brier_コース平均", "最有力艇の1着率", "1号艇1着率", "判定_購入", "判定_的中率", "判定_回収率", "常に1号艇_回収率"]].to_string(index=False, float_format=lambda x: f"{x:.3f}"))
 print("\n閾値", {k: v for k, v in th.items() if k != "base_w"}, "調整期間ROI", round(best_roi, 3))
@@ -115,7 +116,7 @@ for t_danger, t_att, t_ratio in [(0.5, 0.20, 1.5), (0.6, 0.20, 1.5), (0.6, 0.25,
     pn2, b2 = E.bet_pnl(D, np.arange(N), tg2)
     h2 = np.array([win[i, t] if t >= 0 else 0 for i, t in enumerate(tg2)], float)
     line = []
-    for sname in ["学習", "調整", "確認"]:
+    for sname in ["学習", "調整", "確認", "新確認"]:
         ix = idx_of(sname); sm = E.summary(pn2[ix], b2[ix], h2[ix])
         line.append(f"{sname}:{sm['購入']}点 的中{sm['的中率']:.3f} 回収{sm['回収率']:.3f}" if sm["購入"] else f"{sname}:0点")
     pm = np.mean([P[i, t] for i, t in enumerate(tg2) if t >= 0]) if (tg2 >= 0).any() else float("nan")

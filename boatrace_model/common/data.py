@@ -29,6 +29,8 @@ def load_venue(kdata: Path, jcd: str):
     p = p[(p.jcd == jcd) & (p.shiki == "単勝")]
     tansho = {}
     for hd, rno, combo, pay in zip(p.hd, p.rno, p.combo, p.payout):
+        if not (str(combo).isdigit() and str(pay).isdigit()):      # 特払い等の非数値行は払戻なし(0)扱い
+            continue
         tansho.setdefault((hd, int(rno)), {})[int(combo)] = int(pay)
 
     e["rno"] = e.rno.astype(int)
